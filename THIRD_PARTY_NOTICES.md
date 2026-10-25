@@ -1,6 +1,6 @@
 # Third-party notices
 
-Pravadh DocSign is licensed under the Apache License 2.0 (see [LICENSE](LICENSE)). It includes
+Pravadh DocSign is licensed under the MIT License (see [LICENSE](LICENSE)). It includes
 the third-party components below, each under its own licence. The full licence texts follow.
 
 | Component | Version | Licence | Where it ships |
@@ -363,5 +363,5 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
 ## PDF.js — Apache License 2.0
 
-PDF.js is licensed under the same Apache License 2.0 as this project; the full text is in
-[LICENSE](LICENSE) and in `LICENSE.txt` inside `DocSignPdfEngine.resource`.
+PDF.js is licensed under the Apache License 2.0. The full text is in
+[licenses/Apache-2.0.txt](licenses/Apache-2.0.txt) and in `LICENSE.txt` inside `DocSignPdfEngine.resource`.

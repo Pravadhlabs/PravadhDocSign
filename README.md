@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img alt="Licence: Apache 2.0" src="https://img.shields.io/badge/licence-Apache%202.0-2563eb"></a>
+  <a href="LICENSE"><img alt="Licence: MIT" src="https://img.shields.io/badge/licence-MIT-2563eb"></a>
   <a href="#install"><img alt="Release 1.0.0" src="https://img.shields.io/badge/release-1.0.0-0f9d6b"></a>
   <img alt="Salesforce API 67.0" src="https://img.shields.io/badge/Salesforce%20API-67.0-00a1e0">
   <a href="https://www.youtube.com/@PravadhLabs"><img alt="YouTube @PravadhLabs" src="https://img.shields.io/badge/YouTube-%40PravadhLabs-ff0000"></a>
@@ -20,7 +20,7 @@
 
 Pravadh DocSign turns any Salesforce record into a document, sends it for signature, and files the signed copy back on the record. Everything runs inside your org: no external signing service, no data leaving Salesforce, no per-user licence for the people who sign.
 
-It started as a free AppExchange package. It is now **fully open source under the Apache 2.0 licence**, so you can install it, read every line, change it, and contribute back.
+It started as a free AppExchange package. It is now **fully open source under the MIT licence**, so you can install it, read every line, change it, and contribute back.
 
 Built by [Pravadh Labs](https://pravadhlabs.com).
 
@@ -74,8 +74,8 @@ sf package install --package 04tdN000000StZRQA0 --target-org <your-org-alias> --
 For teams that want to customise the code. Nothing is namespaced in your org, and you own the upgrades.
 
 ```bash
-git clone https://github.com/Dhairyasalesforce/Pravadh-DocSign.git
-cd Pravadh-DocSign
+git clone https://github.com/Pravadhlabs/PravadhDocSign.git
+cd PravadhDocSign
 sf org login web --alias my-org
 sf project deploy start --source-dir pravadh-docsign --target-org my-org --test-level RunLocalTests
 ```
@@ -152,6 +152,6 @@ If DocSign saves you a DocuSign bill, a ⭐ on this repository helps other Sales
 
 ## Licence
 
-Copyright 2026 Pravadh Labs Private Limited. Licensed under the [Apache License, Version 2.0](LICENSE). See [NOTICE](NOTICE) for third-party components and [TRADEMARKS.md](TRADEMARKS.md) for use of the Pravadh names and logos.
+Copyright 2026 Pravadh Labs Private Limited. Licensed under the [MIT License](LICENSE). See [NOTICE](NOTICE) for third-party components and [TRADEMARKS.md](TRADEMARKS.md) for use of the Pravadh names and logos.
 
 Salesforce, Agentforce and AppExchange are trademarks of Salesforce, Inc. Pravadh DocSign is not affiliated with or endorsed by Salesforce. DocuSign is a trademark of Docusign, Inc.

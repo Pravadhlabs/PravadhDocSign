@@ -6,8 +6,8 @@ import { labsUrl } from "@/lib/nav";
 
 export const metadata: Metadata = {
   title: "Pricing: free and open source",
-  description: "Pravadh DocSign is free and open source under Apache 2.0. No per-user, per-envelope or per-signature fees, and no paid tier.",
-  ...pageMeta("/pricing/", "Pricing: free and open source", "Pravadh DocSign is free and open source under Apache 2.0. No per-user, per-envelope or per-signature fees, and no paid tier."),
+  description: "Pravadh DocSign is free and open source under MIT. No per-user, per-envelope or per-signature fees, and no paid tier.",
+  ...pageMeta("/pricing/", "Pricing: free and open source", "Pravadh DocSign is free and open source under MIT. No per-user, per-envelope or per-signature fees, and no paid tier."),
 };
 
 const included = [
@@ -23,7 +23,7 @@ const included = [
   "SHA-256 audit chain",
   "Flow",
   "Agentforce when available",
-  "Source on GitHub (Apache 2.0)",
+  "Source on GitHub (MIT)",
 ];
 
 const services = [

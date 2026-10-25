@@ -4,9 +4,9 @@ import { ProductLockup } from "@/components/product-lockup";
 import { labsUrl } from "@/lib/nav";
 
 export const metadata: Metadata = {
-  title: "Support",
+  title: "Support & Help for Salesforce eSignature",
   description: "Get help with Pravadh DocSign, the free open-source eSignature and document generation app for Salesforce.",
-  ...pageMeta("/support/", "Support", "Get help with Pravadh DocSign, the free open-source eSignature and document generation app for Salesforce."),
+  ...pageMeta("/support/", "Support & Help for Salesforce eSignature", "Get help with Pravadh DocSign, the free open-source eSignature and document generation app for Salesforce."),
 };
 
 const ways = [

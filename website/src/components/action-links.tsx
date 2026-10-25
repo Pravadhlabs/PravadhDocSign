@@ -1,4 +1,4 @@
-import { githubUrl, installUrl, labsUrl } from "@/lib/nav";
+import { githubUrl, installUrl } from "@/lib/nav";
 
 type Tone = "dark" | "light";
 
@@ -28,7 +28,7 @@ export function InstallFreeLink({
 
 export function ReplacingLink({ className = "", tone = "light" }: { className?: string; tone?: Tone }) {
   return (
-    <a href={labsUrl} className={`${tone === "dark" ? "btn-ghost-dark" : "btn-ghost-light"} group ${className}`}>
+    <a href="/conga-s-docs-alternative/" className={`${tone === "dark" ? "btn-ghost-dark" : "btn-ghost-light"} group ${className}`}>
       Replacing Conga or S-Docs <Arrow />
     </a>
   );

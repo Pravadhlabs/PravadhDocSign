@@ -5,8 +5,8 @@ import { ProductLockup } from "@/components/product-lockup";
 
 export const metadata: Metadata = {
   title: { absolute: "Free Open-Source eSignature for Salesforce | Pravadh DocSign" },
-  description: "Pravadh DocSign is free, open-source (Apache 2.0) document generation and eSignature built natively for Salesforce. Unlimited users, documents, recipients and signatures.",
-  ...pageMeta("/", "Free Open-Source eSignature for Salesforce | Pravadh DocSign", "Pravadh DocSign is free, open-source (Apache 2.0) document generation and eSignature built natively for Salesforce. Unlimited users, documents, recipients and signatures."),
+  description: "Pravadh DocSign is free, open-source (MIT) document generation and eSignature built for Salesforce. Unlimited users, documents and signatures.",
+  ...pageMeta("/", "Free Open-Source eSignature for Salesforce | Pravadh DocSign", "Pravadh DocSign is free, open-source (MIT) document generation and eSignature built for Salesforce. Unlimited users, documents and signatures."),
 };
 
 export default function HomePage() {

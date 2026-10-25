@@ -4,9 +4,9 @@ import { InstallFreeLink, ReplacingLink } from "@/components/action-links";
 import { ProductLockup } from "@/components/product-lockup";
 
 export const metadata: Metadata = {
-  title: "Install Pravadh DocSign (free, open source)",
-  description: "Install Pravadh DocSign free: the managed package or the Apache 2.0 source from GitHub. Step-by-step setup for document generation and eSignature in Salesforce.",
-  ...pageMeta("/installation/", "Install Pravadh DocSign (free, open source)", "Install Pravadh DocSign free: the managed package or the Apache 2.0 source from GitHub. Step-by-step setup for document generation and eSignature in Salesforce."),
+  title: "Install DocSign Free in Salesforce",
+  description: "Install Pravadh DocSign free: the managed package or the MIT source from GitHub. Step-by-step setup for document generation and eSignature in Salesforce.",
+  ...pageMeta("/installation/", "Install DocSign Free in Salesforce", "Install Pravadh DocSign free: the managed package or the MIT source from GitHub. Step-by-step setup for document generation and eSignature in Salesforce."),
 };
 
 export default function InstallationPage() {
@@ -16,7 +16,7 @@ export default function InstallationPage() {
       <div className="mx-auto max-w-7xl px-4 pb-20 sm:px-6 [&>*]:max-w-3xl">
       <section className="mt-12 rounded-2xl bg-white px-6 py-8 ring-1 ring-[#e1eaf8] sm:px-8">
         <p className="eyebrow">
-          Open source · Apache 2.0
+          Open source · MIT
         </p>
         <h2 className="mt-3 text-4xl font-bold tracking-[-0.035em] text-[#0b1b3a]">Free. On GitHub.</h2>
         <p className="mt-4 text-lg font-semibold text-[#0b1b3a]">Managed package, namespace prvd, version 1.0.0.</p>

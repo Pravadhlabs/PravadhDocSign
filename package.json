@@ -41,10 +41,10 @@
       "sfdx-lwc-jest -- --bail --findRelatedTests --passWithNoTests"
     ]
   },
-  "license": "Apache-2.0",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Dhairyasalesforce/Pravadh-DocSign.git"
+    "url": "https://github.com/Pravadhlabs/PravadhDocSign.git"
   },
   "homepage": "https://pravadhdocsign.pravadhlabs.com",
   "author": "Pravadh Labs Private Limited (https://pravadhlabs.com)"

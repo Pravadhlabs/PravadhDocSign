@@ -12,6 +12,8 @@ const routes: { path: string; priority: number; changeFrequency: "weekly" | "mon
   { path: "/pricing/", priority: 0.7, changeFrequency: "monthly" },
   { path: "/settings/", priority: 0.5, changeFrequency: "monthly" },
   { path: "/support/", priority: 0.5, changeFrequency: "monthly" },
+  { path: "/docusign-alternative/", priority: 0.8, changeFrequency: "monthly" },
+  { path: "/conga-s-docs-alternative/", priority: 0.8, changeFrequency: "monthly" },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
