@@ -11,6 +11,6 @@ Not part of any package directory, so it is never deployed.
 * `src/app.js`, `src/index.src.html`, `src/merge.js`, `src/sample.js` the standalone website demo
 
 Build: `npm install && npm run build:salesforce` then
-`cd dist/sf && zip -j ../../../pravadh-docsign/main/default/staticresources/DocSignTemplateEditor.resource editor.js editor.css`
+`cd dist/sf && zip -j ../../../pravadh-docsign/main/default/staticresources/DocSignTemplateEditor.resource editor.js editor.css THIRD-PARTY-NOTICES.txt`
 
 Third-party: Tiptap 2.27.2 and ProseMirror (MIT). No eval / new Function in the bundle.

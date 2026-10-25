@@ -14,8 +14,8 @@ Thanks for helping. Bug reports, template examples, docs fixes and code are all 
 You need the Salesforce CLI (`sf`), Node.js 20+, git and a Dev Hub (any Developer Edition org can enable one).
 
 ```bash
-git clone https://github.com/Dhairyasalesforce/Pravadh-DocSign.git
-cd Pravadh-DocSign
+git clone https://github.com/Pravadhlabs/PravadhDocSign.git
+cd PravadhDocSign
 npm install
 sf org create scratch --definition-file config/project-scratch-def.json --alias docsign-dev --no-namespace --duration-days 14 --target-dev-hub <your-dev-hub>
 sf project deploy start --source-dir pravadh-docsign --target-org docsign-dev
@@ -68,4 +68,4 @@ Every release is tagged `vX.Y.Z` in git, listed in [CHANGELOG.md](CHANGELOG.md) 
 
 ## Licence of contributions
 
-By submitting a pull request you agree that your contribution is licensed under the [Apache License 2.0](LICENSE), the same licence as the project (Apache 2.0, section 5).
+By submitting a pull request you agree that your contribution is licensed under the [MIT License](LICENSE), the same licence as the project.

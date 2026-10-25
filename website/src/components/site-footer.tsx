@@ -2,7 +2,7 @@ import Link from "next/link";
 import { InstallFreeLink, GitHubLink } from "@/components/action-links";
 import { BrandLockup } from "@/components/brand-mark";
 import { PartnerLockup } from "@/components/partner-lockup";
-import { appNav, labsUrl, linkedInUrl, pravadhIqUrl, secondaryNav } from "@/lib/nav";
+import { appNav, compareNav, labsUrl, linkedInUrl, pravadhIqUrl, secondaryNav } from "@/lib/nav";
 
 export function SiteFooter() {
   return (
@@ -35,7 +35,7 @@ export function SiteFooter() {
           <div>
             <h2 className="text-xs font-semibold tracking-[0.14em] text-white uppercase">Get started</h2>
             <ul className="mt-4 space-y-2.5 text-sm">
-              {secondaryNav.map((item) => (
+              {[...secondaryNav, ...compareNav].map((item) => (
                 <li key={item.href}>
                   <Link href={item.href} className="hover:text-white">
                     {item.label}
@@ -60,6 +60,11 @@ export function SiteFooter() {
               <li>
                 <a href={linkedInUrl} className="hover:text-white">
                   Dhairya Shah on LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="#cookie-settings" className="hover:text-white">
+                  Cookie settings
                 </a>
               </li>
             </ul>

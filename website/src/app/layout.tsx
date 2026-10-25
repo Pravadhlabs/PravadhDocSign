@@ -44,6 +44,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       data-scroll-behavior="smooth"
       className="h-full antialiased"
     >
+      <head>
+        {/* Google Tag Manager with Consent Mode (analytics cookies only after "Accept"). */}
+        <script src="/gtm-init.js" />
+        <script src="/consent.js" defer />
+      </head>
       <body className="flex min-h-full flex-col">
         <script
           type="application/ld+json"

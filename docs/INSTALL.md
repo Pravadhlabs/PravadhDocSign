@@ -54,8 +54,8 @@ sf package install --package <04t id from the changelog> --target-org <sandbox-a
 Requirements: [Salesforce CLI](https://developer.salesforce.com/tools/salesforcecli) (`sf`), git, and an org where you can deploy Apex (sandbox, Developer Edition or scratch org; production needs 75% coverage, which the included tests provide).
 
 ```bash
-git clone https://github.com/Dhairyasalesforce/Pravadh-DocSign.git
-cd Pravadh-DocSign
+git clone https://github.com/Pravadhlabs/PravadhDocSign.git
+cd PravadhDocSign
 sf org login web --alias my-org            # add --instance-url https://test.salesforce.com for a sandbox
 sf project deploy start --source-dir pravadh-docsign --target-org my-org --test-level RunLocalTests --dry-run
 sf project deploy start --source-dir pravadh-docsign --target-org my-org --test-level RunLocalTests

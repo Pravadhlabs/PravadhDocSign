@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Source of the Pravadh DocSign visual template editor (DocSignTemplateEditor static resource) and the website demo.",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "build:salesforce": "node build-sf.mjs",

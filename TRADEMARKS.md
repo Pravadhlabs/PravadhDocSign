@@ -1,6 +1,6 @@
 # Trademarks
 
-The code in this repository is open source under the Apache License 2.0. The names **Pravadh**, **Pravadh Labs** and **Pravadh DocSign**, and the logos in [`brand/`](brand), are trademarks of Pravadh Labs Private Limited and are not covered by that licence (Apache 2.0, section 6).
+The code in this repository is open source under the MIT License. The names **Pravadh**, **Pravadh Labs** and **Pravadh DocSign**, and the logos in [`brand/`](brand), are trademarks of Pravadh Labs Private Limited and are not covered by that licence.
 
 You may:
 

@@ -28,13 +28,13 @@ for (const file of html) {
 
 const csp = [
   "default-src 'self'",
-  `script-src 'self' ${[...hashes].sort().join(" ")}`,
+  `script-src 'self' https://www.googletagmanager.com https://*.googletagmanager.com https://googleads.g.doubleclick.net https://www.googleadservices.com ${[...hashes].sort().join(" ")}`,
   "style-src 'self' 'unsafe-inline'",
   "font-src 'self'",
-  "img-src 'self' data:",
-  "connect-src 'self'",
+  "img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com https://*.google.com https://*.doubleclick.net https://*.googlesyndication.com https://www.googleadservices.com",
+  "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.google.com https://*.doubleclick.net https://*.googlesyndication.com https://www.googleadservices.com",
   "manifest-src 'self'",
-  "frame-src 'none'",
+  "frame-src https://*.doubleclick.net https://www.googletagmanager.com",
   "frame-ancestors 'none'",
   "base-uri 'self'",
   "form-action 'self'",

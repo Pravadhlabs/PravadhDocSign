@@ -5,7 +5,7 @@ export const siteName = "Pravadh DocSign";
 export const ogImage = "/brand/og-image.png";
 
 export const defaultDescription =
-  "Pravadh DocSign is free, open-source (Apache 2.0) document generation and eSignature built natively for Salesforce. Unlimited users, documents, recipients and signatures. No paid tier.";
+  "Pravadh DocSign is free, open-source (MIT) document generation and eSignature built for Salesforce. Unlimited users, documents and signatures.";
 
 export const keywords = [
   "open source eSignature",

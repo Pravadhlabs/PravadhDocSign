@@ -5,9 +5,9 @@ import { ProductLockup } from "@/components/product-lockup";
 import { VisualEditorScene } from "@/components/motion/visual-editor-scene";
 
 export const metadata: Metadata = {
-  title: "Document templates on any Salesforce object",
+  title: "Salesforce Document Generation Templates",
   description: "Build document templates on any standard or custom Salesforce object in a visual editor or HTML, with live preview and merge fields. Free and open source.",
-  ...pageMeta("/templates/", "Document templates on any Salesforce object", "Build document templates on any standard or custom Salesforce object in a visual editor or HTML, with live preview and merge fields. Free and open source."),
+  ...pageMeta("/templates/", "Salesforce Document Generation Templates", "Build document templates on any standard or custom Salesforce object in a visual editor or HTML, with live preview and merge fields. Free and open source."),
 };
 
 export default function TemplatesPage() {
